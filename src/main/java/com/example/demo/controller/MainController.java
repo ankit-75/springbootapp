@@ -17,6 +17,7 @@ public class MainController {
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("username", "Ankit");
         hashMap.put("address", "LKO");
+        hashMap.put("city", "LKO");
         return hashMap;
     }
 
