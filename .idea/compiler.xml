@@ -2,17 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
+        <module name="address-service" />
+        <module name="learning" />
+        <module name="simple" />
+        <module name="SpringbootApp" />
+        <module name="Design_Patterns" />
+        <module name="monitoring" />
+        <module name="discovery-service" />
+        <module name="employee-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="employee-service-new-feignclient" target="22" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
+      <module name="Design_Patterns" options="-parameters" />
+      <module name="SpringbootApp" options="-parameters" />
+      <module name="address-service" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="employee-service" options="-parameters" />
+      <module name="employee-service-new-feignclient" options="-parameters" />
+      <module name="learning" options="-parameters" />
+      <module name="monitoring" options="-parameters" />
+      <module name="simple" options="-parameters" />
     </option>
   </component>
 </project>
