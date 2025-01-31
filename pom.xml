@@ -30,7 +30,6 @@
 <!--        <module>employee-service-new-feighclient</module>-->
 		<module>address-service</module>
 		<module>discovery-service</module>
-        <module>simple</module>
         <module>address-service-serverless</module>
     </modules>
     <scm>
