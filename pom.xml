@@ -30,7 +30,7 @@
 <!--        <module>employee-service-new-feighclient</module>-->
 		<module>address-service</module>
 		<module>discovery-service</module>
-        <module>address-service-serverless</module>
+<!--        <module>address-service-serverless</module>-->
     </modules>
     <scm>
 		<connection/>
@@ -39,7 +39,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>21</java.version>
 	</properties>
 	<dependencies>
 
