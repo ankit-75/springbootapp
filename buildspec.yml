@@ -9,6 +9,7 @@ phases:
       - ls
       - cd springbootapp
       - git log -1
+      - java --version
       - mvn clean install
       - echo Logging in to Amazon ECR...
       - aws --version
