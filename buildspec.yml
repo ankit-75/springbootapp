@@ -5,6 +5,9 @@ phases:
     commands:
       - pwd
       - ls
+      - git clone  https://github.com/ankit-75/springbootapp.git
+      - ls
+      - cd springbootapp
       - mvn clean install
       - echo Logging in to Amazon ECR...
       - aws --version
