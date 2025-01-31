@@ -1,3 +1,3 @@
-compiler.xml
-encodings.xml
+.demo/compiler.xml
+.demo/encodings.xml
 */target/**
