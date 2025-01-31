@@ -8,6 +8,7 @@ phases:
       - git clone  https://github.com/ankit-75/springbootapp.git
       - ls
       - cd springbootapp
+      - git log -1
       - mvn clean install
       - echo Logging in to Amazon ECR...
       - aws --version
